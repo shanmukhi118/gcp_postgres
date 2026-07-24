@@ -1,0 +1,15 @@
+# clone repo if you haven't already
+git clone https://github.com/shanmukhi118/gcp_postgres.git
+cd gcp_postgres
+
+# create a new file
+touch Dockerfile
+# or for Windows: type nul > Dockerfile
+
+# edit it (using any editor, e.g., nano, VS Code, notepad)
+nano Dockerfile
+
+# push it to GitHub
+git add Dockerfile
+git commit -m "add Dockerfile"
+git push origin main
